@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Changer</title>
+</head>
+
+<body >
+    <div class="main" id="alpha">
+        <h2>This is a simple javascript color changer</h2>
+        <p>Change their color below:</p>
+        <div class="colors">
+            <button onclick="myChangerA()" id="A">Color A</button>
+            <button onclick="myChangerB()" id="B">Color B</button>
+            <button onclick="myChangerC()" id="C">Color C</button>
+            <button onclick="myChangerD()" id="D">Color D</button>
+            <button onclick="myChangerE()" id="E">Color E</button>
+        </div>
+        <script>
+
+            function myChangerA() {
+                document.getElementById('A').style.backgroundColor = "green";
+                document.getElementById('alpha').style.backgroundColor = "green";
+                document.getElementById('A').style.border = 0;
+                document.getElementById('A').style.color = "white";
+            }
+            function myChangerB() {
+                document.getElementById('B').style.backgroundColor = "red";
+                document.getElementById('B').style.color = "white";
+                document.getElementById('alpha').style.backgroundColor = "red";
+                document.getElementById('B').style.border = 0;
+            }
+            function myChangerC() {
+                document.getElementById('C').style.backgroundColor = "yellow";
+                document.getElementById('alpha').style.backgroundColor = "yellow";
+                document.getElementById('C').style.border = 0;
+            }
+            function myChangerD() {
+                document.getElementById('D').style.backgroundColor = "purple";
+                document.getElementById('D').style.color = "white";
+                document.getElementById('alpha').style.backgroundColor = "purple";
+                document.getElementById('D').style.border = 0;
+            }
+            function myChangerE() {
+                document.getElementById('E').style.backgroundColor = "blue";
+                document.getElementById('E').style.color = "white";
+                document.getElementById('alpha').style.backgroundColor = "blue";
+                document.getElementById('E').style.border = 0;
+            }
+
+        </script>
+    </div>
+</body>
+
+</html>
